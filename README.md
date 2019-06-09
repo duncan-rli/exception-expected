@@ -1,4 +1,4 @@
-Having recenlty seen the Herb Sutter presentation on Lightweight exception handling then finding Simon Brand's "Functional exceptionless error handling with std::expected" article, I wondered how timings for them would compare.
+Having recenlty seen the Herb Sutter presentation on Lightweight exception handling then finding Simon Brand's "Functional exceptionless error handling with std::expected" article (https://github.com/TartanLlama/expected), I wondered how timings for them would compare.
 
 Using Simon Brand's example as a base, the test functions create an array of smart pointers, then destroys them.  Each test has three functions. Test 1 has no errors and all three functions are executed.  Test 2 has an error in the first function, Test 3 has an error in the second function and Test 4 has an error in the last function.
 
